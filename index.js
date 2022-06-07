@@ -3,7 +3,7 @@ const model_jsonSchema = require('./lib/model');
 const query_jsonSchema = require('./lib/query');
 const types = require('./lib/types');
 
-module.exports.default = function moduleFactory(mongoose) {
+module.exports.extendMongooseWithJsonSchema = function moduleFactory(mongoose) {
   // eslint-disable-next-line global-require
   mongoose = mongoose || require('mongoose');
   const { Types } = mongoose.Schema;

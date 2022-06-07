@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-schema-jsonschema",
+  "name": "@becollective/mongoose-schema-jsonschema",
   "version": "2.0.3",
   "description": "Mongoose extention that allows to build json schema for mongoose models, schemas and queries",
   "main": "index.js",
